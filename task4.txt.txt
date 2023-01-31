@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+int doctors(int number);
+int treatedpatients(int number);
+int untreatedpatients(int number);
+int currentpatients(int nunber);
+int timeperiod(int days);
+main()
+{
+    int number;
+    int doctors=7;
+    int untreatedpatients=0;
+    int treatedpatients=0;
+    cout<<"enter the number of days:";
+    cin>>days;
+    cout<<"enter the number of doctors:";
+    cin>>doctors;
+
+
+}
+  int timeperiod(int days)
+  {
+    for(int i==1; i<=days; i++)
+    {
+        if(i%3==0 &&untreatedpatients>treatedpatients )
+        {
+            doctors++;
+        }
+        if(currentpatients>doctors)
+        {
+          treatedpatients+=doctors;
+          untreatedpatients+=treatedpatients-doctors;
+        }
+        else
+        {
+            treatedpatients+=currentpatients;
+        }
+    
+    }
+  }

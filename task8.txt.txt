@@ -1,0 +1,7 @@
+#include <iostream>
+using namespace std;
+float percentages(float num, float p1,float p2,float p3)
+main()
+{
+  
+}
